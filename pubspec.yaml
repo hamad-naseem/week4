@@ -1,0 +1,33 @@
+name: weather_app
+description: "A simple weather app fetching data from OpenWeatherMap API."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  flutter_dotenv: ^5.1.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/Screenshot.png
+
+  # Add the following line to include the .env file in your assets
+  # This is important for loading environment variables in Flutter
+  # Make sure to add the .env file to your project root directory
+  # and include it in your version control system (e.g., Git) if needed.
+  # Note: The .env file should not be included in version control for security reasons.
+  # You can add it to your .gitignore file to prevent it from being tracked.
