@@ -3,6 +3,7 @@
 ## Group Members
 - **Hamad Naseem** - 2280143  
 - **Muhammad Bin Tariq** - 2280150
+- **Rehan Badshah** - 2280159
 
 ## About
 A simple Flutter application that fetches and displays the current weather information for Karachi using the OpenWeatherMap API.
